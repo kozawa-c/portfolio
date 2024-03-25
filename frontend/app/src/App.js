@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { FaAppleWhole } from "react-icons/fa6";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <FaAppleWhole />やっほー <code>src/App.js</code> and save to reload.<FaAppleWhole />
         </p>
         <a
           className="App-link"
